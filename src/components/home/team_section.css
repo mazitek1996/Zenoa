@@ -1,0 +1,62 @@
+
+.team_section {
+    padding: 50px 0;
+  }
+  
+  .section_title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .team_members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .team_member {
+    max-width: 300px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .member_image {
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  .member_info {
+    margin-top: 15px;
+  }
+  
+  .member_name {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  
+  .member_role {
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .member_bio {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .social_links {
+    margin-top: 15px;
+  }
+  
+  .social_links a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .social_links a:hover {
+    text-decoration: underline;
+  }
+  

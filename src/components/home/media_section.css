@@ -1,0 +1,48 @@
+.media_section {
+    padding: 50px 0;
+  }
+  
+  .section_title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .media_entries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .media_entry {
+    max-width: 300px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .entry_title {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  
+  .entry_source {
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .entry_date {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .entry_link {
+    display: block;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .entry_link:hover {
+    text-decoration: underline;
+  }
+  

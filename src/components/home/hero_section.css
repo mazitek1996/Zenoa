@@ -1,0 +1,100 @@
+.hero_root {
+    background-color: #041527;
+}
+
+.hero_heading {
+  font-family: "Inter", sans-serif;
+  font-size: 4.5rem;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+
+  
+}
+
+.hero_body_text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+  text-align: center;
+  margin-left: 150px;
+  color: white;
+
+}
+
+.hero_explore_button { 
+
+   position: absolute;
+right: 40%;
+height: 40px;
+background: radial-gradient(
+  1091px at 106.5% 111.5%,
+  rgb(250, 246, 213) 0.1%,
+  rgb(218, 147, 93) 42.2%,
+  rgb(137, 86, 67) 74.3%,
+  rgb(67, 39, 39) 100.2%
+);
+border-radius: 20px;
+width: 25%;
+
+
+}
+
+.hero_explore_button h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #423200;
+position: relative;
+bottom: 15px;
+} 
+
+.hero-rocket-emoji {
+  font-size: 2em;
+  margin-right: 10px;
+}
+
+
+
+
+.hero_display_screen_card {
+  position: relative;
+  border: 2px solid teal; 
+  overflow: hidden;
+  border-radius: 20px;
+  height: 80vh;
+  background-color: teal;
+}
+
+.video-overlay {
+  position: relative;
+  width: 100%;
+}
+
+.hero-video {
+  width: 100%;
+  height: auto;
+}
+
+.hero_display_card_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: gainsboro;
+  text-align: center;
+}
+
+.hero_display_card_text h1 {
+  font-size: 10rem; 
+  font-weight: 900;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+.lightning-emoji {
+  font-size: 1.5em; 
+  margin-left: 5px; 
+}

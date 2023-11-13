@@ -1,0 +1,251 @@
+/* .tech_stack_section {
+}
+
+.tech_stack_title_holder {
+  height: 40px;
+  width: 40%;
+  background: radial-gradient(
+    1091px at 106.5% 111.5%,
+    rgb(250, 246, 213) 0.1%,
+    rgb(218, 147, 93) 42.2%,
+    rgb(137, 86, 67) 74.3%,
+    rgb(67, 39, 39) 100.2%
+  );
+  border-radius: 20px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  position: relative;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
+
+.tech_stack_title_holder h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  color: #423200;
+}
+
+.tech-stack-title {
+  text-align: center;
+  position: relative;
+  bottom: 15px;
+}
+
+.rocket-emoji {
+  font-size: 1.5em;
+  margin-right: 10px;
+}
+
+.stack_collection_card {
+  height: 50vh;
+  display: flex;
+  background: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+.stack_collection_card_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.text_top_left,
+.text_bottom_left {
+  margin: 0;
+}
+
+.text_top_left {
+  align-self: flex-start;
+  margin: 30px 0px 0px 30px;
+  max-width: 400px;
+}
+
+.text_top_left_container p {
+  display: flex;
+  justify-content: space-between;
+}
+.text_top_left_container {
+  display: flex;
+}
+.text_top_left_container p {
+  font-size: 1 rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: white;
+  cursor: pointer;
+}
+
+.text_top_left_container img {
+  width: 60px;
+  position: absolute;
+  top: 10px;
+}
+
+.text_bottom_left {
+  align-self: flex-end;
+  position: absolute;
+  left: 50px;
+  bottom: 40px;
+  max-width: 400px;
+}
+
+.text_bottom_left p {
+  font-size: 1 rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.text_bottom_left p:hover {
+  font-size: 1 rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: white;
+  text-decoration: underline;
+}
+
+.right_image_container img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  height: auto;
+} */
+
+.tech_stack_section {
+  background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+}
+
+.tech_stack_title_holder {
+  height: 40px;
+  width: 40%;
+  background: radial-gradient(
+    1091px at 106.5% 111.5%,
+    rgb(250, 246, 213) 0.1%,
+    rgb(218, 147, 93) 42.2%,
+    rgb(137, 86, 67) 74.3%,
+    rgb(67, 39, 39) 100.2%
+  );
+  border-radius: 20px;
+
+  /* Center horizontally and vertically */
+  margin: auto;
+  position: relative;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.tech_stack_title_holder h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #423200;
+}
+
+.tech-stack-title {
+  text-align: center;
+  position: relative;
+  bottom: 15px;
+}
+
+.rocket-emoji {
+  font-size: 1.5em;
+  margin-right: 10px;
+}
+
+.stack_collection_card {
+  height: 50vh;
+  display: flex;
+  background: linear-gradient(to right, #434343 0%, black 100%);
+  border-radius: 15px;
+}
+
+.stack_collection_card_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.text_top_left,
+.text_bottom_left {
+  margin: 0;
+}
+
+.text_top_left {
+  align-self: flex-start;
+  margin: 30px 0px 0px 30px;
+  max-width: 400px;
+}
+
+.text_top_left_container p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text_top_left_container {
+  display: flex;
+}
+
+.text_top_left_container p {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: white;
+  cursor: pointer;
+}
+
+.text_top_left_container img {
+  width: 60px;
+  height: 60px; /* Set a fixed height for the images */
+  object-fit: cover; /* Ensure images maintain aspect ratio and cover the specified size */
+  position: absolute;
+  top: 10px;
+}
+
+.text_bottom_left {
+  align-self: flex-end;
+  position: absolute;
+  left: 50px;
+  bottom: 40px;
+  max-width: 400px;
+}
+
+.text_bottom_left p {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: teal;
+  cursor: pointer;
+}
+
+.text_bottom_left p:hover {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: white;
+  text-decoration: underline;
+}
+
+.right_image_container img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  height: 400px;
+  width: auto;
+
+}

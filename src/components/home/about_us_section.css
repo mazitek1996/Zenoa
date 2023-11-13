@@ -1,0 +1,131 @@
+
+.about-us-section {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+  }
+  
+
+  
+.about_us_fist_section{
+
+  background: radial-gradient(592px at 48.2% 50%, rgba(255, 255, 249, 0.6) 0%, rgb(160, 199, 254) 74.6%);
+
+}
+
+.first_section_container{
+
+  justify-content: center;
+
+}
+.about_us_section_heading{
+
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 5 rem;
+  font-weight: 900;
+
+}
+
+.about_section_title_container{
+     position: relative;
+left: 40%;
+height: 40px;
+background: radial-gradient(circle at 10% 20%, rgb(87, 152, 235) 0%, rgb(133, 222, 213) 67%);
+border-radius: 20px;
+width: 20%;
+
+top: 0;
+
+}
+
+.about_section_title_container h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #423200;
+
+
+}
+
+.fisrt_about_section_text_container h1{ 
+
+margin-left: 250px;
+font-size: 3 rem;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.fisrt_about_section_text_container p{ 
+
+  margin-left: 250px;
+
+  font-size: 2 rem;
+  text-align: center;
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.about_us_page_linking{
+  font-weight: bold;
+  text-align: center;
+  color: blue;
+  cursor: pointer;
+}
+
+
+.about_us_second_section {
+  padding-top: 30px;
+
+}
+
+
+.section-title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* .section-description {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 20px;
+} */
+
+.about-content {
+  max-width: 600px;
+}
+
+.about-content p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5 rem;
+  font-weight: 400;
+  color: #041527;
+  line-height: 1.5;
+}
+.about-content p:first-child:first-letter{
+  font-size: 2rem;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.about_skilled_section{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.about_skilled_section p {
+  font-weight: bold;
+  color: #041527;
+  font-family: 'Roboto', sans-serif;
+
+}

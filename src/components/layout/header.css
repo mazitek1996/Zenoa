@@ -1,0 +1,35 @@
+
+.navbar {
+    background-color: #041527;
+  }
+  
+  .navbar-brand,
+  .navbar-nav .nav-link {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link.active {
+    color: teal;
+  }
+
+  .navbar-brand:hover,
+  .navbar-nav .nav-link:hover {
+    color: #423200;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: white;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  /* Optional: Add a subtle shadow to the navbar */
+  .navbar {
+    box-shadow: 0 4px 6px -6px #222;
+  }
+  
+  
